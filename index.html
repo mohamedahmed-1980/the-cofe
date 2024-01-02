@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <div class=" " id="navbar" >
+      <ul class="flex bg-black  text-white  list-none justify-between p-4  " style="position: fixed;    width: 100%;
+      background-color: black;
+      color: white;">
+        <a href="#navbar" >HOME</a >
+        <a href="#about">ABOUT</a >
+        <a href="#theMenu">MENU</a >
+        <a href="#whereToFindUs" >WHERE</a >
+      </ul>
+    </div>
+    <div class="w-full mb-7" style="height: 813px">
+      <div
+      id="about"
+        class="bg-cover bg-center h-full"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1545418314-7ce0b9b53901?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        "
+      ></div>
+    </div>
+    <div >
+      <div class="flex my-10 justify-center text-center" >
+        <div class="bg-black px-1 py-2">
+          <h3 class="text-white font-mono text-2xl">ABOUT THE COFE</h3>
+        </div>
+      </div>
+      <div
+        class="px-2 py-2 mt-16"
+        style="max-width: 1000px; margin-left: auto; margin-right: auto"
+      >
+        <div class="">
+          <p class="font-mono text-lg">
+            The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. <br />In addition to our full espresso and brew bar menu,
+            we serve fresh made-to-order breakfast and lunch sandwiches, as well
+            as a selection of sides and salads and other good stuff.
+          </p>
+          <p class="bg-gray-100 border-l-8 my-3 font-mono text-xl p-5">
+            "Use products from nature for what it's worth - but never too early,
+            nor too late." Fresh is the new sweet. Chef, Coffeeist and Owner:
+            Liam Brown
+          </p>
+          <div>
+            <img
+              src="https://www.w3schools.com/w3images/coffeeshop.jpg"
+              class="w-full"
+            />
+          </div>
+        </div>
+        <div class="mt-4 font-mono text-xl" id="theMenu">
+          <h3 class="mb-3">Opening hours: everyday from 6am to 5pm.</h3>
+
+          <h3>Address: 15 Adr street, 5015, NY</h3>
+        </div>
+
+        
+        <div class="flex my-10 justify-center text-center"   >
+          <div class="bg-black px-1 py-2">
+            <h3 class="text-white font-mono text-2xl">THE MENU</h3>
+          </div>
+        </div>
+        <div
+          class="flex bg-gray-50  drop-shadow-lg p-3 text-center justify-center"
+        >
+        <!--buttons-->
+          <div class="tablink" style="width: 50%">
+          <a    href="javascript:void(0)" onclick="openMenu(event, 'Eat');">EAT</a>
+        </div>
+        <div class="tablink" style="width: 50%">
+          <a    href= "javascript:void(0)" onclick="openMenu(event, 'Drink');"     id="myLink">DRINK</a>
+        </div>
+        <div>
+        </div>
+        </div>
+          <!-- eat container-->
+         
+          <div class="menu p-4 bg-white shadow-lg" id="Eat">
+            <h5>Bread Basket</h5>
+            <p class="">
+              Assortment of fresh baked fruit breads and muffins 5.50
+            </p>
+            <br />
+
+            <h5>Honey Almond Granola with Fruits</h5>
+            <p class="">
+              Natural cereal of honey toasted oats, raisins, almonds and dates
+              7.00
+            </p>
+            <br />
+
+            <h5>Belgian Waffle</h5>
+            <p class="">
+              Vanilla flavored batter with malted flour 7.50
+            </p>
+            <br />
+
+            <h5>Scrambled eggs</h5>
+            <p class="">
+              Scrambled eggs, roasted red pepper and garlic, with green onions
+              7.50
+            </p>
+            <br />
+
+            <h5>Blueberry Pancakes</h5>
+            <p class="">
+              With syrup, butter and lots of berries 8.50
+            </p>
+            </div>
+          <!--drink conatainer-->
+            <div  class="menu p-4 bg-white shadow-lg " id="Drink">
+              <h5>Coffee</h5>
+              <p class="">Regular coffee 2.50</p>
+              <br />
+  
+              <h5>Chocolato</h5>
+              <p class="">Chocolate espresso with milk 4.50</p>
+              <br />
+  
+              <h5>Corretto</h5>
+              <p class="">Whiskey and coffee 5.00</p>
+              <br />
+  
+              <h5>Iced tea</h5>
+              <p class="">Hot tea, except not hot 3.00</p>
+              <br />
+  
+              <h5 class="">Soda</h5>
+              <p >Coke, Sprite, Fanta, etc. 2.50</p>
+            </div>
+            <div class="mt-10"  id="whereToFindUs">
+              <img src="https://www.w3schools.com/w3images/coffeehouse2.jpg" alt="cofe" class="w-full">
+            </div>
+            <div class="flex m-10 justify-center text-center">
+              <div class="bg-black px-2 py-1">
+                <h3 class="text-white font-mono text-2xl" >WHERE TO FIND US</h3>
+              </div>
+             
+              </div>
+              <div class="mt-10 mb-10">
+                <h4 class="font-mono text-xl">Find us at some address at some place.
+
+                </h4>
+            </div>
+            <div>
+              <img class="w-full" src="https://www.w3schools.com/w3images/map.jpg" alt="place">
+            </div>
+  <div>
+    <h6  class=" my-10 text-black text-xl font-mono"><span class="bg-black text-white text-2xl p-1 ">FYI!</span> We offer full-service catering for any event, large or small. We <br/>understand your needs and we will cater the food to satisfy the biggerst <br/> criteria of them all, both look and taste.<br/><br/>
+      Reserve a table, ask for today's special or just send us a message:
+    </h6>
+
+  </div>
+  <!-- contatct-->
+  <div class=" contact felx flex-col space-y-10 ">
+    <input placeholder="Name" class="w-full "/>
+    <input placeholder="How many people" type="number" class="w-full"/>
+    <input  type="datetime-local" class="w-full"/>
+    <input placeholder="Message  Special requirements" class="w-full"/>
+   
+    <div class="flex  text-center">
+      <div class="bg-black  hover:bg-gray-300">
+        <button class="text-white px-3 py-3 font-mono text-xl hover:text-black">SEND MESSAGE</button>
+      </div>
+     
+      </div>
+  </div>
+    </div>
+    <div class="flex justify-center w-full bg-gray-100 h-44 my-9">
+      <h3 class="text-black mt-20">Powerd By Mohamed Ahmed</h3>
+    </div>
+   
+  <script>
+    function openMenu(event, menuName){
+      var i, x, tablinks;
+      x = document.getElementsByClassName("menu")
+      console.log(x)
+      for(i=0;i<x.length;i++){
+        x[i].style.display="none"
+      }
+      tablinks= document.getElementsByClassName("tablink")
+      console.log(tablinks)
+      for(i=0;i<x.length;i++){
+        tablinks[i].className = tablinks[i].className.replace(
+            "bg-gray-400",
+            ""
+          )
+      }
+      document.getElementById(menuName).style.display = "block";
+    }
+    document.getElementById("myLink").click();
+    // trail !!!!
+    const links = document.querySelectorAll('a[href^="#"]');
+console.log(links) // all <a> tage in the page
+links.forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+
+    const targetId = link.getAttribute('href').substring(1);
+    console.log(targetId) // all herf ids
+
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      const offsetTop = targetElement.offsetTop;
+
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+  </script>
+  </body>
+
+</html>

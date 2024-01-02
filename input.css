@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h5 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 200;
+  margin: 10px 0;
+  font-size: x-large;
+}
+p {
+  color: #757575 !important;
+  font-size: larger;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+body {
+  background-color: rgb(247, 245, 241);
+}
+.contact input {
+  padding: 20px;
+  border: #757575 solid 1px;
+}
